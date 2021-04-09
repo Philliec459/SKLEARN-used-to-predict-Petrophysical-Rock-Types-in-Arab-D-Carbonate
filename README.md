@@ -1,8 +1,8 @@
 # Petrophysical Rock Type (PRT) Estimations for an Arab D complex carbonate reservoir.
 
-This Workbook started with Brendon Hall, [Enthought](https://www.enthought.com/)(2)
+This Workbook started with Brendon Hall, [Enthought](https://www.enthought.com/)(1)
 
-The dataset we will use is log data from eight carbonate wells that have been labeled with Petrophysical Rock Types (PRT) called facies in this instance based on Ed Clerke's Rosetta Stone data(1).  We will use this log data to train a support vector machine to classify these PRT facies types.  Support vector machines (or SVMs) are a type of supervised learning model that can be trained on data to perform classification and regression tasks.  The SVM algorithm uses the training data to fit an optimal hyperplane between the different classes (or facies, in our case).  We will use the SVM implementation in [scikit-learn](http://scikit-learn.org/stable/modules/svm.html).
+The dataset we will use is log data from eight carbonate wells that have been labeled with Petrophysical Rock Types (PRT) called facies in this instance based on Ed Clerke's Rosetta Stone data(2).  We will use this log data to train a support vector machine to classify these PRT facies types.  Support vector machines (or SVMs) are a type of supervised learning model that can be trained on data to perform classification and regression tasks.  The SVM algorithm uses the training data to fit an optimal hyperplane between the different classes (or facies, in our case).  We will use the SVM implementation in [scikit-learn](http://scikit-learn.org/stable/modules/svm.html).
 
 The 6 discrete PRT facies (Petrophysical Rock Types) are: 
 1. M_1, Macro Porous Rock with Meso porous grains
@@ -16,7 +16,7 @@ The 6 discrete PRT facies (Petrophysical Rock Types) are:
 ![Notebook_Image](prt.png)
 
 
-We are employing python’s Sklearn as published by Hall(2). We could have estimated Depositions of Environment or other types of categoric geologic facies used in this Sklearn prediction process.
+We are employing python’s Sklearn as published by Hall(1). We could have estimated Depositions of Environment or other types of categoric geologic facies used in this Sklearn prediction process.
 
 The initial process is evaluating the data:
 
@@ -28,9 +28,5 @@ The initial process is evaluating the data:
 
 
 
-
-
-
-1.	Clerke, E. A., Mueller III, H. W., Phillips, E. C., Eyvazzadeh, R. Y., Jones, D. H., Ramamoorthy, R., Srivastava, A., (2008) “Application of Thomeer Hyperbolas to decode the pore systems, facies and reservoir properties of the Upper Jurassic Arab D Limestone, Ghawar field, Saudi Arabia: A Rosetta Stone approach”, GeoArabia, Vol. 13, No. 4, p. 113-160, October, 2008. 
-2.	Hall, Brendon, “Facies classification using Machine Learning”, The Leading Edge, 2016, Volume 35, Issue 10
- 
+1.	Hall, Brendon, “Facies classification using Machine Learning”, The Leading Edge, 2016, Volume 35, Issue 10
+2.	Clerke, E. A., Mueller III, H. W., Phillips, E. C., Eyvazzadeh, R. Y., Jones, D. H., Ramamoorthy, R., Srivastava, A., (2008) “Application of Thomeer Hyperbolas to decode the pore systems, facies and reservoir properties of the Upper Jurassic Arab D Limestone, Ghawar field, Saudi Arabia: A Rosetta Stone approach”, GeoArabia, Vol. 13, No. 4, p. 113-160, October, 2008. 
