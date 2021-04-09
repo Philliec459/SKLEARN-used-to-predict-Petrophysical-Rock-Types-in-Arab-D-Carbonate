@@ -13,7 +13,7 @@ The 6 discrete PRT facies (Petrophysical Rock Types) are:
 6. Micro, Micro Porous Rock that is non-reservoir rock
 
 
-![Notebook_Image](geolog_altair_thomeer.gif)
+![Notebook_Image](prt.png)
 
 
 We are employing python’s Sklearn as published by Hall(2). We could have estimated Depositions of Environment or other types of categoric geologic facies used in this Sklearn prediction process.
