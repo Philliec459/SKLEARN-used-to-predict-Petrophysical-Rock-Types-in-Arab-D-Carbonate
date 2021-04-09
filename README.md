@@ -1,6 +1,6 @@
 # Petrophysical Rock Type (PRT) Estimations for an Arab D complex carbonate reservoir.
 
-This Workbook started with Brendon Hall, [Enthought](https://www.enthought.com/)(1)
+This Workbook started with with the work from Brendon Hall, [Enthought](https://www.enthought.com/)(1)
 
 The dataset we will use is log data from eight carbonate wells that have been labeled with Petrophysical Rock Types (PRT) called facies in this instance based on Ed Clerke's Rosetta Stone data(2).  We will use the log data to train a support vector machine to classify these PRT facies types.  Support vector machines (or SVMs) are a type of supervised learning model that can be trained on data to perform classification and regression tasks.  The SVM algorithm uses the training data to fit an optimal hyperplane between the different classes (or facies, in our case).  We will use the SVM implementation in [scikit-learn](http://scikit-learn.org/stable/modules/svm.html).
 
